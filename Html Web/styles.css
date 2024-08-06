@@ -1,0 +1,149 @@
+/* CSS Document */
+body {
+	font-family: Arial, Helvetica, sans-serif;;
+	margin-left: 0px;
+	margin-top: 0px;
+	margin-right: 0px;
+	margin-bottom: 0px;
+	text-align: center;
+	background-image:url(imagenes/fondo.jpg);
+}
+
+body div {
+	margin: auto;
+}
+
+#contenedor {
+	width: 800px;
+	position: relative;
+	top: 40px;
+	background: url(imagenes/contenedorFondo.jpg);
+}
+#contenedorArriba {
+	height: 11px;
+	width: 801px;
+	background: url(imagenes/contenedorArriba.jpg);
+}
+#contenedorCuerpo {
+	width: 100%;
+	text-align:left;
+	position:relative;
+}
+#contenedorAbajo {
+	height: 10px;
+	width: 801px;
+	background: url(imagenes/contenedorAbajo.jpg);
+	clear: both;
+}
+#cuadro{
+	margin-top: 6px;
+	width: 745px;
+	height: 116px;
+	background: url(imagenes/cuadro.jpg);
+	text-align: left;
+}
+
+#slogan {
+	left: 200px;
+	width: 400px;
+	font: 0.7em Arial, Helvetica, sans-serif;;
+	font-size:20px;
+	font-weight:bold;
+	color:#4254f5;
+	margin-left: 40px;
+}
+
+#logo {
+	position: absolute;
+	top: 50%;
+	left: 230px;
+	width: 200px;
+	font: 0.7em Tahoma, sans-serif;
+	font-size: 30px;
+	font-weight:bold;
+	color:#FFFFFF;
+}
+#cuerpo {
+	margin: 20px;
+}
+#izquierdo {
+	width: 150px;
+	float: left;
+}
+#derecho {
+	width: 580px;
+	float: right;
+	text-align: justify;
+	vertical-align: top;
+}
+#menu {
+	font: 0.7em Tahoma, sans-serif;
+	font-size:20px;
+	font-weight:bold;
+}
+#menu ul {
+	margin: 0;
+	padding: 0;
+	list-style: none;
+}
+
+#menu li {
+	display: inline;
+}
+
+#menu a {
+	display: block;
+	padding: 6px 6px;
+	border-bottom: 2px solid #000000;
+	text-decoration: none;
+	color: #000000;
+	background-color: #ffffff; /*amarrillo*/
+	border-radius: 15px;
+}
+
+#menu a:hover {
+	background: #4254f5; /*verde*/
+	color: #ffffff ;
+}
+
+#menu .active a {
+	background: #53ec98; /*azul*/
+	color: #000000;
+}
+
+.titulo {
+	font: 0.7em Tahoma, sans-serif;
+	font-size:18px;
+	font-weight:bold;
+	color:#4254f5;
+}
+
+#menu .volvel {
+	background: #53ec98; /*azul*/
+	color: #000000;
+}
+
+.subTitulo {
+	font: 0.7em Tahoma, sans-serif;
+	font-size:12px;
+	font-weight:bold;
+	color:#4254f5;
+}
+.textoNormal {
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	font-size: 16px;
+	color: #000000;/*texto*/
+}
+#design {
+	top: 50px;
+	position: relative;
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	font-size: 10px;
+	color: #FFFFFF;
+	clear: both;
+}
+
+#design a{
+	color: #FFFFFF;
+	text-decoration:none;
+}

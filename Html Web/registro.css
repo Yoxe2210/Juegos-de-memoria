@@ -1,0 +1,116 @@
+body {
+  font-family: Verdana, Arial, Helvetica, sans-serif;
+  background-image:url(imagenes/fondo.jpg);
+  color: #000000;
+  font-weight: 700;
+}
+
+header {
+  position: relative;
+  margin: 30px 0 15px 0;
+  font-size: 20px;
+  text-align: center;
+  letter-spacing: 7px;
+  color:#4254f5;
+}
+
+#form {
+  position: relative;
+  width: 470px;
+  margin: 50px auto 50px auto;
+  color:#FFFFFF;
+
+
+}
+
+input {
+  font-family: Verdana, Arial, Helvetica, sans-serif;
+  font-size: 0.875em;
+  font-weight: 700;
+  width: 470px;
+  height: 50px;
+  padding: 0px 15px 0px 15px;
+  background: #53ec98;
+  outline: none;
+  color: #000000;
+  border: solid 5px #000000;
+  border-bottom: none;
+  position: center;
+  transition: all 0.3s ease-in-out;
+  -webkit-transition: all 0.3s ease-in-out;
+  -moz-transition: all 0.3s ease-in-out;
+  -ms-transition: all 0.3s ease-in-out;
+}
+
+input:hover {
+  background: #FFFFFF;
+  color: #000000;
+}
+
+#submit {
+  width: 470px;
+  padding: 0;
+  margin: -5px 0px 0px 0px;
+  font-family: 'Lato', sans-serif;
+  font-size: 0.875em;
+  background: #4254f5;
+  color: #ffffff;
+  outline:none;
+  cursor: pointer;
+  border: solid 5px #000000;
+  border-top: none;
+}
+
+#submit:hover {
+  background: #FFBE00;
+  color: #000000;
+}
+
+.accordion {
+  margin: 20px 0;
+}
+
+input[type="checkbox"] {
+  display: none; /* Ocultar el checkbox */
+}
+
+.accordion-label {
+  background-color: #4254f5; 
+  color: #ffffff;
+  cursor: pointer;
+  padding: 10px;
+  width: 100%;
+  border: none;
+  text-align: left;
+  font-size: 16px;
+  outline: none;
+  transition: background-color 0.3s ease;
+  border-radius: 15px;
+  border-bottom: 2px solid #000000;
+  
+}
+
+.accordion-label:hover {
+  background: #FFBE00;
+  color: #000000;
+}
+
+.accordion-content {
+  display: none; /* Oculto por defecto */
+  padding: 15px;
+  border: 1px solid #ccc;
+  border-top: none;
+}
+
+input[type="checkbox"]:checked + .accordion-label + .accordion-content {
+  display: block; /* Mostrar cuando el checkbox está marcado */
+}
+
+.accordion-content form {
+  display: flex;
+  flex-direction: column;
+}
+
+.accordion-content label {
+  margin-bottom: 5px;
+}
